@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:wght@100;500&display=swap');
+/* 'Patrick Hand', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: linear-gradient(45deg, #360b41, #4f2c4d);
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.conteudo {
+    background: #fafdea;
+    max-width: 350px;
+    min-height: 50vh;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 5px, 5px, 15px rgba(0, 0, 0, 0.5);
+}
+
+main h2 {
+    font-weight: 550;
+    margin: 1rem;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa {
+    margin: 0.5rem;
+    border-bottom: solid 2px #ccc9aa;  
+}
+
+input {
+    outline: none;
+}
+
+input::placeholder {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 13px;
+}
+
+.senha {
+    color: #64634c;
+}
+
+.reminder {
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.4rem;
+    background: #4f2c4d;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all o.3 ease;
+}
+
+input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+}
